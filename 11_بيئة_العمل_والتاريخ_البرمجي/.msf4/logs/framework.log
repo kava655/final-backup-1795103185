@@ -1,0 +1,263 @@
+[04/04/2026 21:16:35] [e(0)] core: Failed to connect to the database: No database YAML file
+[04/04/2026 21:16:44] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/04/2026 21:16:45] [e(0)] core: Dependency for windows/encrypted_shell_reverse_tcp is not supported
+[04/04/2026 21:16:54] [e(0)] core: Dependency for windows/x64/encrypted_reverse_tcp is not supported
+[04/04/2026 21:17:02] [e(0)] core: Dependency for windows/encrypted_reverse_tcp is not supported
+[04/04/2026 21:17:12] [e(0)] core: Failed to open history file: /data/data/com.termux/files/home/.msf4/history with error: No such file or directory @ rb_sysopen - /data/data/com.termux/files/home/.msf4/history
+[04/04/2026 21:27:55] [e(0)] core: Exception encountered in cmd_set - Msf::OptionValidateError The following options failed to validate: Value '[رقم الـ IP الخاص بك]' is not valid for option 'LHOST'.
+[04/04/2026 21:37:04] [e(0)] core: Exception encountered in cmd_set - Msf::OptionValidateError The following options failed to validate: Value '[رقم الـ IP الذي وجدته تحت ccmni0]' is not valid for option 'LHOST'.
+[04/04/2026 21:38:03] [e(0)] core: Exception encountered in cmd_set - Msf::OptionValidateError The following options failed to validate: Value '[10.125.28.16]' is not valid for option 'LHOST'.
+[04/04/2026 21:43:53] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/04/2026 21:43:55] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/04/2026 21:43:59] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/04/2026 21:44:00] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/04/2026 21:44:04] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/04/2026 22:55:07] [e(0)] core: RuntimeError : Invalid template: appmod3.apk
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload/apk.rb:223:in 'Msf::Payload::Apk#backdoor_apk'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload_generator.rb:412:in 'Msf::PayloadGenerator#generate_payload'
+/data/data/com.termux/files/usr/bin/msfvenom:480:in '<main>'
+[04/04/2026 23:15:31] [e(0)] core: RuntimeError : Invalid template: /sdcard/SnapTube.apk
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload/apk.rb:223:in 'Msf::Payload::Apk#backdoor_apk'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload_generator.rb:412:in 'Msf::PayloadGenerator#generate_payload'
+/data/data/com.termux/files/usr/bin/msfvenom:480:in '<main>'
+[04/04/2026 23:36:52] [e(0)] core: RuntimeError : Invalid template: /sdcard/original_app.apk
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload/apk.rb:223:in 'Msf::Payload::Apk#backdoor_apk'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload_generator.rb:412:in 'Msf::PayloadGenerator#generate_payload'
+/data/data/com.termux/files/usr/bin/msfvenom:480:in '<main>'
+[04/05/2026 00:12:06] [e(0)] core: RuntimeError : Invalid template: /sdcard/Download/Click_me_to_install_SnapTube_....apk
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload/apk.rb:223:in 'Msf::Payload::Apk#backdoor_apk'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload_generator.rb:412:in 'Msf::PayloadGenerator#generate_payload'
+/data/data/com.termux/files/usr/bin/msfvenom:480:in '<main>'
+[04/05/2026 00:15:09] [e(0)] core: RuntimeError : Invalid template: /sdcard/Download/snap.apk
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload/apk.rb:223:in 'Msf::Payload::Apk#backdoor_apk'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload_generator.rb:412:in 'Msf::PayloadGenerator#generate_payload'
+/data/data/com.termux/files/usr/bin/msfvenom:480:in '<main>'
+[04/05/2026 00:20:13] [e(0)] core: RuntimeError : Invalid template: /sdcard/Download/QRbot_Premium_v3.5.0_Modded_by_@Getmodpcs.apk
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload/apk.rb:223:in 'Msf::Payload::Apk#backdoor_apk'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload_generator.rb:412:in 'Msf::PayloadGenerator#generate_payload'
+/data/data/com.termux/files/usr/bin/msfvenom:480:in '<main>'
+[04/05/2026 00:22:51] [e(0)] core: RuntimeError : apktool not found. If it's not in your PATH, please add it.
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload/apk.rb:228:in 'Msf::Payload::Apk#backdoor_apk'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload_generator.rb:412:in 'Msf::PayloadGenerator#generate_payload'
+/data/data/com.termux/files/usr/bin/msfvenom:480:in '<main>'
+[04/05/2026 00:35:01] [e(0)] core: RuntimeError : zipalign not found. If it's not in your PATH, please add it.
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload/apk.rb:272:in 'Msf::Payload::Apk#backdoor_apk'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload_generator.rb:412:in 'Msf::PayloadGenerator#generate_payload'
+/data/data/com.termux/files/usr/bin/msfvenom:480:in '<main>'
+[04/05/2026 00:51:11] [e(0)] core: RuntimeError : zipalign not found. If it's not in your PATH, please add it.
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload/apk.rb:272:in 'Msf::Payload::Apk#backdoor_apk'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload_generator.rb:412:in 'Msf::PayloadGenerator#generate_payload'
+/data/data/com.termux/files/usr/bin/msfvenom:480:in '<main>'
+[04/05/2026 00:54:39] [e(0)] core: RuntimeError : Unable to rebuild apk with apktool
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload/apk.rb:389:in 'Msf::Payload::Apk#backdoor_apk'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/core/payload_generator.rb:412:in 'Msf::PayloadGenerator#generate_payload'
+/data/data/com.termux/files/usr/bin/msfvenom:480:in '<main>'
+[04/05/2026 00:57:49] [e(0)] core: Failed to connect to the database: No database YAML file
+[04/05/2026 00:58:00] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 00:58:05] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 00:58:13] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 00:58:14] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 00:58:20] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 00:58:20] [e(0)] core: Exploit failed (multi/handler): Rex::BindFailed The address is already in use or unavailable: (0.0.0.0:4444). - Rex::BindFailed The address is already in use or unavailable: (0.0.0.0:4444).
+[04/05/2026 00:58:20] [e(0)] core: Failed to open history file: /data/data/com.termux/files/home/.msf4/history with error: No such file or directory @ rb_sysopen - /data/data/com.termux/files/home/.msf4/history
+[04/05/2026 00:59:59] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:00:04] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:00:09] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:00:09] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:00:12] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:00:13] [e(0)] core: Exploit failed (multi/handler): Rex::BindFailed The address is already in use or unavailable: (0.0.0.0:4444). - Rex::BindFailed The address is already in use or unavailable: (0.0.0.0:4444).
+[04/05/2026 01:01:14] [e(0)] core: Failed to connect to the database: No database YAML file
+[04/05/2026 01:01:15] [e(0)] core: Failed to open history file: /data/data/com.termux/files/home/.msf4/history with error: No such file or directory @ rb_sysopen - /data/data/com.termux/files/home/.msf4/history
+[04/05/2026 01:04:00] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:04:05] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:04:13] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:04:13] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:04:19] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:04:20] [e(0)] core: Exploit failed (multi/handler): Rex::BindFailed The address is already in use or unavailable: (0.0.0.0:4444). - Rex::BindFailed The address is already in use or unavailable: (0.0.0.0:4444).
+[04/05/2026 01:08:17] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:08:19] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:08:26] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:08:27] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:08:30] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:11:36] [w(0)] core: Session 1 has died
+[04/05/2026 01:11:37] [w(0)] core: Session 2 has died
+[04/05/2026 01:11:37] [w(0)] core: Session 3 has died
+[04/05/2026 01:11:49] [d(0)] core: Session 1 failed to negotiate TLV encryption
+[04/05/2026 01:11:59] [d(0)] core: Session 2 failed to negotiate TLV encryption
+[04/05/2026 01:12:05] [w(0)] core: Session 4 has died
+[04/05/2026 01:12:05] [w(0)] core: Session 5 has died
+[04/05/2026 01:12:05] [w(0)] core: Session 6 has died
+[04/05/2026 01:12:07] [d(0)] core: Session 3 failed to negotiate TLV encryption
+[04/05/2026 01:12:08] [d(0)] core: Session 4 failed to negotiate TLV encryption
+[04/05/2026 01:12:09] [d(0)] core: Session 5 failed to negotiate TLV encryption
+[04/05/2026 01:12:10] [w(0)] core: Session 7 has died
+[04/05/2026 01:12:15] [w(0)] core: Session 8 has died
+[04/05/2026 01:12:15] [w(0)] core: Session 9 has died
+[04/05/2026 01:12:15] [w(0)] core: Session 10 has died
+[04/05/2026 01:12:19] [d(0)] core: Session 6 failed to negotiate TLV encryption
+[04/05/2026 01:12:19] [w(0)] core: Session 11 has died
+[04/05/2026 01:12:19] [d(0)] core: Session 11 failed to negotiate TLV encryption
+[04/05/2026 01:12:20] [w(0)] core: Session 12 has died
+[04/05/2026 01:12:20] [d(0)] core: Session 12 failed to negotiate TLV encryption
+[04/05/2026 01:12:21] [w(0)] core: Session 13 has died
+[04/05/2026 01:12:21] [d(0)] core: Session 13 failed to negotiate TLV encryption
+[04/05/2026 01:12:22] [w(0)] core: Session 14 has died
+[04/05/2026 01:12:31] [d(0)] core: Session 7 failed to negotiate TLV encryption
+[04/05/2026 01:12:32] [w(0)] core: Session 15 has died
+[04/05/2026 01:12:37] [d(0)] core: Session 8 failed to negotiate TLV encryption
+[04/05/2026 01:12:37] [w(0)] core: Session 16 has died
+[04/05/2026 01:12:38] [d(0)] core: Session 16 failed to negotiate TLV encryption
+[04/05/2026 01:12:39] [w(0)] core: Session 17 has died
+[04/05/2026 01:12:39] [d(0)] core: Session 9 failed to negotiate TLV encryption
+[04/05/2026 01:12:40] [d(0)] core: Session 10 failed to negotiate TLV encryption
+[04/05/2026 01:12:52] [d(0)] core: Session 14 failed to negotiate TLV encryption
+[04/05/2026 01:13:02] [d(0)] core: Session 15 failed to negotiate TLV encryption
+[04/05/2026 01:13:08] [d(0)] core: Session 17 failed to negotiate TLV encryption
+[04/05/2026 01:16:52] [e(0)] core: Failed to connect to the database: No database YAML file
+[04/05/2026 01:16:53] [e(0)] core: Failed to open history file: /data/data/com.termux/files/home/.msf4/history with error: No such file or directory @ rb_sysopen - /data/data/com.termux/files/home/.msf4/history
+[04/05/2026 01:18:15] [e(0)] core: Exploit failed (multi/handler): Interrupt  - Interrupt 
+[04/05/2026 01:18:23] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:18:27] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:18:36] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:18:38] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:18:47] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:19:25] [e(0)] core: Failed to open history file: /data/data/com.termux/files/home/.msf4/meterpreter_history with error: No such file or directory @ rb_sysopen - /data/data/com.termux/files/home/.msf4/meterpreter_history
+[04/05/2026 01:22:29] [e(0)] core: Failed to connect to the database: No database YAML file
+[04/05/2026 01:24:11] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:24:21] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:24:39] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:24:41] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:24:53] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:24:54] [w(0)] core: Exception in scheduler thread NameError uninitialized constant Rex::Post::Meterpreter::Extensions::Stdapi::Stdapi
+[04/05/2026 01:27:43] [e(0)] core: Rex::TimeoutError Send timed out
+[04/05/2026 01:28:23] [w(0)] core: Session 1 has died
+[04/05/2026 01:28:23] [w(0)] core: Session 2 has died
+[04/05/2026 01:28:23] [w(0)] core: Session 3 has died
+[04/05/2026 01:33:14] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:33:20] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:33:28] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:33:29] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:33:38] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:34:11] [d(0)] core: Session 6 failed to negotiate TLV encryption
+[04/05/2026 01:34:23] [e(0)] meterpreter: stdapi_fs_stat: Operation failed: 1
+[04/05/2026 01:34:23] [d(0)] meterpreter: Call stack:
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/fs/file_stat.rb:49:in 'stat'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/fs/file_stat.rb:36:in 'initialize'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/fs/file.rb:211:in 'Class#new'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/fs/file.rb:211:in 'stat'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console/command_dispatcher/stdapi/fs.rb:538:in 'block in Rex::Post::Meterpreter::Ui::Console::CommandDispatcher::Stdapi::Fs#cmd_download'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console/command_dispatcher/stdapi/fs.rb:501:in 'Array#each'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console/command_dispatcher/stdapi/fs.rb:501:in 'Rex::Post::Meterpreter::Ui::Console::CommandDispatcher::Stdapi::Fs#cmd_download'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:582:in 'Rex::Ui::Text::DispatcherShell#run_command'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console.rb:102:in 'Rex::Post::Meterpreter::Ui::Console#run_command'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:531:in 'block in Rex::Ui::Text::DispatcherShell#run_single'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:525:in 'Array#each'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:525:in 'Rex::Ui::Text::DispatcherShell#run_single'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console.rb:64:in 'block in Rex::Post::Meterpreter::Ui::Console#interact'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:160:in 'block in Rex::Ui::Text::Shell#run'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:309:in 'block in Rex::Ui::Text::Shell#with_history_manager_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell/history_manager.rb:35:in 'Rex::Ui::Text::Shell::HistoryManager#with_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:306:in 'Rex::Ui::Text::Shell#with_history_manager_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:133:in 'Rex::Ui::Text::Shell#run'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console.rb:62:in 'Rex::Post::Meterpreter::Ui::Console#interact'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/base/sessions/meterpreter.rb:607:in 'Msf::Sessions::Meterpreter#_interact'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/interactive.rb:53:in 'Rex::Ui::Interactive#interact'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/ui/console/command_dispatcher/core.rb:1757:in 'Msf::Ui::Console::CommandDispatcher::Core#cmd_sessions'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:582:in 'Rex::Ui::Text::DispatcherShell#run_command'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:531:in 'block in Rex::Ui::Text::DispatcherShell#run_single'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:525:in 'Array#each'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:525:in 'Rex::Ui::Text::DispatcherShell#run_single'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:165:in 'block in Rex::Ui::Text::Shell#run'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:309:in 'block in Rex::Ui::Text::Shell#with_history_manager_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell/history_manager.rb:35:in 'Rex::Ui::Text::Shell::HistoryManager#with_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:306:in 'Rex::Ui::Text::Shell#with_history_manager_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:133:in 'Rex::Ui::Text::Shell#run'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/metasploit/framework/command/console.rb:54:in 'Metasploit::Framework::Command::Console#start'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/metasploit/framework/command/base.rb:82:in 'Metasploit::Framework::Command::Base.start'
+/data/data/com.termux/files/usr/bin/msfconsole:23:in '<main>'
+[04/05/2026 01:34:27] [e(0)] meterpreter: stdapi_fs_stat: Operation failed: 1
+[04/05/2026 01:34:27] [d(0)] meterpreter: Call stack:
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/fs/file_stat.rb:49:in 'stat'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/fs/file_stat.rb:36:in 'initialize'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/fs/file.rb:211:in 'Class#new'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/fs/file.rb:211:in 'stat'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console/command_dispatcher/stdapi/fs.rb:538:in 'block in Rex::Post::Meterpreter::Ui::Console::CommandDispatcher::Stdapi::Fs#cmd_download'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console/command_dispatcher/stdapi/fs.rb:501:in 'Array#each'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console/command_dispatcher/stdapi/fs.rb:501:in 'Rex::Post::Meterpreter::Ui::Console::CommandDispatcher::Stdapi::Fs#cmd_download'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:582:in 'Rex::Ui::Text::DispatcherShell#run_command'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console.rb:102:in 'Rex::Post::Meterpreter::Ui::Console#run_command'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:531:in 'block in Rex::Ui::Text::DispatcherShell#run_single'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:525:in 'Array#each'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:525:in 'Rex::Ui::Text::DispatcherShell#run_single'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console.rb:64:in 'block in Rex::Post::Meterpreter::Ui::Console#interact'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:160:in 'block in Rex::Ui::Text::Shell#run'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:309:in 'block in Rex::Ui::Text::Shell#with_history_manager_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell/history_manager.rb:35:in 'Rex::Ui::Text::Shell::HistoryManager#with_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:306:in 'Rex::Ui::Text::Shell#with_history_manager_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:133:in 'Rex::Ui::Text::Shell#run'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console.rb:62:in 'Rex::Post::Meterpreter::Ui::Console#interact'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/base/sessions/meterpreter.rb:607:in 'Msf::Sessions::Meterpreter#_interact'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/interactive.rb:53:in 'Rex::Ui::Interactive#interact'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/ui/console/command_dispatcher/core.rb:1757:in 'Msf::Ui::Console::CommandDispatcher::Core#cmd_sessions'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:582:in 'Rex::Ui::Text::DispatcherShell#run_command'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:531:in 'block in Rex::Ui::Text::DispatcherShell#run_single'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:525:in 'Array#each'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:525:in 'Rex::Ui::Text::DispatcherShell#run_single'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:165:in 'block in Rex::Ui::Text::Shell#run'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:309:in 'block in Rex::Ui::Text::Shell#with_history_manager_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell/history_manager.rb:35:in 'Rex::Ui::Text::Shell::HistoryManager#with_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:306:in 'Rex::Ui::Text::Shell#with_history_manager_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:133:in 'Rex::Ui::Text::Shell#run'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/metasploit/framework/command/console.rb:54:in 'Metasploit::Framework::Command::Console#start'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/metasploit/framework/command/base.rb:82:in 'Metasploit::Framework::Command::Base.start'
+/data/data/com.termux/files/usr/bin/msfconsole:23:in '<main>'
+[04/05/2026 01:34:49] [w(0)] core: Session 4 has died
+[04/05/2026 01:34:49] [w(0)] core: Session 5 has died
+[04/05/2026 01:34:49] [w(0)] core: Session 7 has died
+[04/05/2026 01:34:49] [w(0)] core: Session 8 has died
+[04/05/2026 01:34:49] [w(0)] core: Session 9 has died
+[04/05/2026 01:34:49] [w(0)] core: Session 10 has died
+[04/05/2026 01:35:14] [e(0)] core: Rex::TimeoutError Send timed out
+[04/05/2026 01:37:02] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:37:07] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:37:16] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:37:17] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:37:26] [e(0)] core: Dependency for windows/x64/encrypted_shell_reverse_tcp is not supported
+[04/05/2026 01:39:28] [e(0)] meterpreter: stdapi_fs_stat: Operation failed: 1
+[04/05/2026 01:39:28] [d(0)] meterpreter: Call stack:
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/fs/file_stat.rb:49:in 'stat'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/fs/file_stat.rb:36:in 'initialize'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/fs/file.rb:211:in 'Class#new'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/extensions/stdapi/fs/file.rb:211:in 'stat'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console/command_dispatcher/stdapi/fs.rb:538:in 'block in Rex::Post::Meterpreter::Ui::Console::CommandDispatcher::Stdapi::Fs#cmd_download'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console/command_dispatcher/stdapi/fs.rb:501:in 'Array#each'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console/command_dispatcher/stdapi/fs.rb:501:in 'Rex::Post::Meterpreter::Ui::Console::CommandDispatcher::Stdapi::Fs#cmd_download'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:582:in 'Rex::Ui::Text::DispatcherShell#run_command'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console.rb:102:in 'Rex::Post::Meterpreter::Ui::Console#run_command'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:531:in 'block in Rex::Ui::Text::DispatcherShell#run_single'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:525:in 'Array#each'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:525:in 'Rex::Ui::Text::DispatcherShell#run_single'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console.rb:64:in 'block in Rex::Post::Meterpreter::Ui::Console#interact'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:160:in 'block in Rex::Ui::Text::Shell#run'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:309:in 'block in Rex::Ui::Text::Shell#with_history_manager_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell/history_manager.rb:35:in 'Rex::Ui::Text::Shell::HistoryManager#with_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:306:in 'Rex::Ui::Text::Shell#with_history_manager_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:133:in 'Rex::Ui::Text::Shell#run'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/post/meterpreter/ui/console.rb:62:in 'Rex::Post::Meterpreter::Ui::Console#interact'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/base/sessions/meterpreter.rb:607:in 'Msf::Sessions::Meterpreter#_interact'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/interactive.rb:53:in 'Rex::Ui::Interactive#interact'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/msf/ui/console/command_dispatcher/core.rb:1757:in 'Msf::Ui::Console::CommandDispatcher::Core#cmd_sessions'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:582:in 'Rex::Ui::Text::DispatcherShell#run_command'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:531:in 'block in Rex::Ui::Text::DispatcherShell#run_single'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:525:in 'Array#each'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/dispatcher_shell.rb:525:in 'Rex::Ui::Text::DispatcherShell#run_single'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:165:in 'block in Rex::Ui::Text::Shell#run'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:309:in 'block in Rex::Ui::Text::Shell#with_history_manager_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell/history_manager.rb:35:in 'Rex::Ui::Text::Shell::HistoryManager#with_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:306:in 'Rex::Ui::Text::Shell#with_history_manager_context'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/rex/ui/text/shell.rb:133:in 'Rex::Ui::Text::Shell#run'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/metasploit/framework/command/console.rb:54:in 'Metasploit::Framework::Command::Console#start'
+/data/data/com.termux/files/usr/opt/metasploit-framework/lib/metasploit/framework/command/base.rb:82:in 'Metasploit::Framework::Command::Base.start'
+/data/data/com.termux/files/usr/bin/msfconsole:23:in '<main>'
+[04/05/2026 01:40:27] [e(0)] core: Rex::TimeoutError Send timed out
+[04/05/2026 01:42:32] [w(0)] core: Session 11 has died
