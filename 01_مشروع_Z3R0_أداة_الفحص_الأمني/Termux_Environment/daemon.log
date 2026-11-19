@@ -1,0 +1,7 @@
+Z3R0 daemon started (v5).
+EXEC: nmap -sV 192.168.0.0/24 sn -T4
+EXEC: nmap -sV 192.168.0.0/24 sn -T4
+EXEC: ping -c 4 ping
+EXEC: ping -c 4 ping 192.168.0.0/24
+EXEC: ping -c 4 ping 192.168.0.0/24
+EXEC: traceroute -m 15 traceroute -m 15
