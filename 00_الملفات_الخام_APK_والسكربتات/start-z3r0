@@ -1,0 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/sh
+termux-wake-lock
+cd ~/z3r0
+nohup python daemon.py > daemon.log 2>&1 &
